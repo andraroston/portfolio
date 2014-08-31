@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* my CSS starts here */
+
+html {
+	min-width: 1060px;
+}
+
+
+
+header {
+	background-image: url("images/bubbles.jpg");
+	background-size: cover;
+
+	min-height: 300px;
+	min-width: 970px;
+	border-bottom: 18px solid #808080;
+}
+
+header h1 {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 60px;
+	padding-top: 100px;
+	font-family: "Codystar";
+
+}
+
+header h2 {
+	text-align: right;
+	margin-right: 130px;
+	color: #FFFFFF;
+	font-size: 26px;
+	margin-top: 24px;
+	font-family: "Quicksand";
+}
+
+
+#personalStatement {
+	
+	display: block;
+	margin: 0 auto;
+	width: 1010px;
+	min-width: 1010px;
+}
+
+#portrait img{
+	margin: 40px 10px 10px 30px;
+	border: 8px solid #808080;
+	border-radius: 50%;
+}
+
+#personalStatement p {
+	font-family: "Quicksand";
+	margin-right: 30px;
+	font-size: 30px;
+	width: 800px;
+	position: relative;
+	left: 230px;
+	top: -118px;
+}
+
+#chat {
+	text-align: center;
+	font-family: "Quicksand";
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+#bodyofwork {
+	display: block;
+	width: 1000px;
+	min-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+	padding: 20px 20px 40px 20px;
+}
+
+.example {
+	border-radius: 50px;
+	display: inline-block;
+	border: 1px solid white;
+	height: 300px;
+	width: 300px;
+	margin: 14px;
+}
+
+#hotorcold {
+	background-image: url("images/hotorcold.jpg");
+	background-size: cover;
+}
+
+#shoplistapp {
+	background-image: url("images/shoplist.jpg");
+	background-size: cover;
+}
+
+#fizzbuzz {
+	background-image: url("images/fizzbuzz.jpg");
+	background-size: cover;
+}
+
+#quizapp {
+	background-image: url("images/narnia.jpg");
+	background-size: cover;
+}
+
+#edfringe {
+	background-image: url("images/edfringe.jpg");
+	background-size: cover;
+}
+
+#ihatehamlet {
+	background-image: url("images/hamlet.jpg");
+	background-size: cover;
+}
+
+footer {
+	clear: both;
+	padding: 20px 40px 50px 40px;
+	height: 50px;
+	background-color: #565656;
+}
+
+#keepintouch {
+	color: #FFFFFF;
+	font-family:"Quicksand";
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#logos {
+	text-align: center;
+}
+
+.logo {
+	margin: 3px;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+
+#twitter {
+	background-image: url("images/twitter.png");
+	background-size: cover;
+}
+
+#googleplus {
+	background-image: url("images/googleplus.png");
+	background-size: cover;
+}
+
+#email {
+	background-image: url("images/email.png");
+	background-size: cover;
+}
