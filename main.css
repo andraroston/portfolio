@@ -49,17 +49,21 @@ table {
 /* my CSS starts here */
 
 html {
-	min-width: 1060px;
+	min-width: 1368px;
 }
 
+body {
+}
 
-
+a {
+	text-decoration: none;
+}
 header {
 	background-image: url("images/bubbles.jpg");
 	background-size: cover;
 
 	min-height: 300px;
-	min-width: 970px;
+	min-width: 1368px;
 	border-bottom: 18px solid #808080;
 }
 
@@ -83,11 +87,11 @@ header h2 {
 
 
 #personalStatement {
-	
 	display: block;
 	margin: 0 auto;
 	width: 1010px;
 	min-width: 1010px;
+	height: 300px;
 }
 
 #portrait img{
@@ -99,19 +103,40 @@ header h2 {
 #personalStatement p {
 	font-family: "Quicksand";
 	margin-right: 30px;
-	font-size: 30px;
 	width: 800px;
 	position: relative;
 	left: 230px;
-	top: -118px;
+	top: -146px;
+}
+
+#lineOne {
+	font-size: 30px;
+}
+
+#lineTwo {
+	font-size: 23px;
 }
 
 #chat {
 	text-align: center;
 	font-family: "Quicksand";
 	font-size: 20px;
-	margin-top: 20px;
+	margin-top: 5px;
 	margin-bottom: 40px;
+	line-height: 1.5;
+}
+
+#wanna {
+	font-size: 25px;
+}
+
+#introduction {
+	text-align: center;
+	font-family: "Quicksand";
+	font-size: 30px;
+	margin-top: 65px;
+	margin-bottom: 20px;
+	line-height: 1.2;
 }
 
 #bodyofwork {
@@ -121,6 +146,49 @@ header h2 {
     height: auto;
     margin: 0 auto;
 	padding: 20px 20px 40px 20px;
+	font-family: "Quicksand";
+}
+
+
+
+#lookaround {
+	width: 1332px;
+	min-width: 1332px;
+    height: auto;
+    margin: 0 auto;
+    padding: 40px 0px 100px 0px;
+}
+
+#lookaround p {
+	font-family: "Quicksand";
+	color: #FFFFFF;
+	text-align:center;
+	padding-top: 134px;
+	font-size: 30px;
+}
+
+#podcast {
+	background-color: #FCDBA7;
+}
+
+#theatre {
+	background-color: #386EB2;
+}
+
+#portfolio {
+	background-color: #EB6373;
+}
+
+#blog {
+	background-color: #00AF7F;
+}
+
+.on {
+	opacity: 0.6;
+}
+
+#blah {
+	display: none;
 }
 
 .example {

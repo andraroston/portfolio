@@ -3,10 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<link type="text/css" rel="stylesheet" href="main.css"/>
-	<link href='http://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Elsie' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Codystar' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="app.js"></script>
 	<title>Portfolio</title>
 </head>
 <body>
@@ -16,37 +16,47 @@
 	</header>	
 
 	<div id="statement">
+		<div id="blah" class="on"></div>
 		<div id="personalStatement">
 			<div id="portrait">
 				<img src="images/Andra.jpg" height="150" width="150"/>
 			</div>
-			<div><p>Hi, I'm Andra! I'm a Front End Web Developer who loves to help create beautiful user experiences.</p></div>	
+				<p id="lineOne">Hi, I'm Andra! I'm a Front End Web Developer who loves to help create beautiful user experiences.</p>
+				<br>
+				<p id="lineTwo">I use HTML, CSS, JavaScript, jQuery, and AJAX to create beautiful, interactive websites.</p>
 		</div>	
 	</div>
 
 	<div id="mainPart">
 		<div id="chat">
-			<p>Here are just some of projects I completed while learning Front-End Web Development with Thinkful:</p>
-		</div>	
+			<p id="wanna">Wanna see?</p> 
+			<p>Here are just some of projects I completed while learning Front End Web Development with Thinkful:</p>
+		</div>
 		<div id="bodyofwork">
 			
 			<a href="http://andraroston.github.io/hot-or-cold-app/index.html" target="_blank">
-				<div class="example" id="hotorcold"></div>
+				<div class="example" id="hotorcold"></div>	
+
 			</a>
 			<a href="http://andraroston.github.io/shop-list-app/index.html" target="_blank">
 				<div class="example" id="shoplistapp"></div>
+
 			</a>
 			<a href="http://andraroston.github.io/FizzBuzz/index.html" target="_blank">
 				<div class="example" id="fizzbuzz"></div>
+
 			</a>
 			<a href="http://andraroston.github.io/narnia-quiz/index.html" target="_blank">
 				<div class="example" id="quizapp"></div>
+
 			</a>
 			<a href="http://andraroston.github.io/edfringe-api/index.html" target="_blank">
 				<div class="example" id="edfringe"></div>
+
 			</a>
 			<a href="http://beamtheatre.com/ihatehamlet/" target="_blank">
 				<div class="example" id="ihatehamlet"></div>
+
 			</a>
 		</div>	
 	</div>
@@ -65,6 +75,7 @@
 			<a href="https://plus.google.com/103327036845025622605/posts" target=" blank">
 				<div id="googleplus" class="logo"></div>
 			</a>
-		</div>			
+		</div>	
+	</footer>			
 </body>
 </html>
